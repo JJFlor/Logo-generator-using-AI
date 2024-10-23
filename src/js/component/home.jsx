@@ -1,13 +1,15 @@
 import React from "react";
 import DescriptionForm from "./DescriptionForm";
+import DalleForm from "./DalleForm";
 
 //create your first component
 const Home = () => {
-	let ApiKey = sk - proj - fBfS5otJD0uuptPAci9lyADlrP3ADLp7HVZxmNFMv_8odLPQ8fUhXE6GETXKRtKaMkHE8l6PmQT3BlbkFJiGoqBIPWxYYzT1vWP6SIo3R - Mxwte - dv4Q6RQZyzvh - tZO3O0SliGHgucKUWdgSJffReUIz1oA;
+	let ApiKey = "sk - proj - fBfS5otJD0uuptPAci9lyADlrP3ADLp7HVZxmNFMv_8odLPQ8fUhXE6GETXKRtKaMkHE8l6PmQT3BlbkFJiGoqBIPWxYYzT1vWP6SIo3R - Mxwte - dv4Q6RQZyzvh - tZO3O0SliGHgucKUWdgSJffReUIz1oA";
 	return (
 		<div className="text-center">
 			<h1 className="text-center mt-5">Logo generator with AI</h1>
 			<DescriptionForm />
+			<DalleForm />
 			<p>
 				Made by
 				<a href="https://www.linkedin.com/in/juliajaileflores/"> Júlia Jaile Flores</a> with love ❤️
