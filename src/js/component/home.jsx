@@ -1,6 +1,5 @@
 import React from "react";
-import DescriptionForm from "./DescriptionForm";
-import DalleForm from "./DalleForm";
+import CreateLogoForm from "./CreateLogoForm";
 
 //create your first component
 const Home = () => {
@@ -8,8 +7,7 @@ const Home = () => {
 	return (
 		<div className="text-center">
 			<h1 className="text-center mt-5">Logo generator with AI</h1>
-			<DescriptionForm />
-			<DalleForm />
+			<CreateLogoForm />
 			<p>
 				Made by
 				<a href="https://www.linkedin.com/in/juliajaileflores/"> Júlia Jaile Flores</a> with love ❤️
